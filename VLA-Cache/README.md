@@ -91,6 +91,8 @@ Several compatibility adjustments were required:
 
 5. The OpenVLA processor was configured to load locally instead of depending on Hugging Face network access.
 
+6. The openvla_pyproject.toml is the substitute for vla-cache/src/openvla/pyproject.toml,for the former pyproject.toml'version is a little bit old so it can't run correctly.
+
 Exact source-code modifications are stored in:
 
 - `patches/vla_cache.diff`
