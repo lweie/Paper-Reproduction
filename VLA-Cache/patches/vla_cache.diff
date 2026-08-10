@@ -1,0 +1,17 @@
+diff --git a/src/openvla/pyproject.toml b/src/openvla/pyproject.toml
+index 782e7ca..47f2774 100644
+--- a/src/openvla/pyproject.toml
++++ b/src/openvla/pyproject.toml
+@@ -44,9 +44,9 @@ dependencies = [
+     "sentencepiece==0.1.99",
+     "timm==0.9.10",
+     "tokenizers==0.21.1",
+-    "torch==2.2.0",
+-    "torchvision==0.17.0",
+-    "torchaudio==2.2.0",
++    "torch>=2.12.1",
++    "torchvision>=0.27.1",
++    
+     "transformers @ git+https://github.com/siyuhsu/transformers.git@vla-cache-openvla",  # IMPORTANT: Use this fork for vla-cache support
+     "wandb",
+     "scikit-image==0.25.0",

@@ -1,0 +1,7 @@
+torch: 2.12.1+cu130
+CUDA: 13.0
+transformers: 4.47.0
+tokenizers: 0.21.1
+mujoco: 3.3.2
+robosuite: 1.4.1
+numpy: 1.26.4
