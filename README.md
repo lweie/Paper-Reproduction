@@ -10,8 +10,7 @@ This repository contains my paper reproduction experiments.
 - Model: OpenVLA
 - Benchmark: LIBERO-Spatial
 - Reproduction directory: `VLA-Cache/`
+- GPU: NVIDIA A100-PCIE-40GB
 
-| Method | Success Rate |
-|---|---:|
-| OpenVLA | 85.2% |
-| OpenVLA + VLA-Cache | 85.2% |
+
+See [`VLA-Cache/`](./VLA-Cache/) for the environment setup, evaluation scripts, logs, patches, and detailed results.
